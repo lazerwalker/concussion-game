@@ -1,0 +1,24 @@
+{
+  "name": "concussion-platformer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel *.html",
+    "build": "parcel build *.html --public-url ./",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lazerwalker/concussion-game.git"
+  },
+  "author": "Em Lazer-Walker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lazerwalker/concussion-game/issues"
+  },
+  "homepage": "https://github.com/lazerwalker/concussion-game#readme",
+  "dependencies": {
+    "parcel": "^2.0.0-beta.2"
+  }
+}
