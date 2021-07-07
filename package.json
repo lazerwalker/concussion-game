@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel *.html",
-    "build": "parcel build *.html --public-url ./",
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url ./",
     "typecheck": "tsc --noEmit"
   },
   "repository": {
@@ -19,6 +19,10 @@
   },
   "homepage": "https://github.com/lazerwalker/concussion-game#readme",
   "dependencies": {
-    "parcel": "^2.0.0-beta.2"
+    "parcel-bundler": "^1.12.5",
+    "phaser": "^3.55.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.4"
   }
 }
